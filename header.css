@@ -1,0 +1,64 @@
+								/*HEADER PART*/
+#header
+{
+background-color: #F2F2F0;
+height: 9em;
+margin-left: 2em;
+margin-right: 3em;
+}
+
+								/*HEADER LOGO PART*/
+#logo
+{
+margin-top: 1em;
+}
+
+								/*HEADER DROP DOWN PART*/
+
+.dropdown
+{
+margin-left: 80%;
+}
+
+.dropdown-toggle
+{
+margin-right: 4.5em;
+margin-top: 1.5em;
+margin-left: 2em;
+text-decoration: none;
+}
+.dropdown-toggle a{
+color: black;
+}
+
+.dropdown-toggle a:focus{
+color: black;
+text-decoration: none;
+}
+
+.dropdown-toggle a:hover
+{
+color: orange;
+text-decoration: none;
+}
+
+#language-selector
+{
+padding: 10px;
+background-color: #333;
+}
+
+#language-selector li a
+{
+background-color: #333;
+color: white;
+line-height: 25px;
+}
+
+#language-selector li a:hover
+{
+color: orange;
+}	
+
+
+

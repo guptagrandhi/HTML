@@ -1,0 +1,1249 @@
+
+								/*HEADER PART*/
+								
+#header
+{
+background-color: #F2F2F0;
+height: 8.4em;
+margin-left: 2em;
+margin-right: 3em;
+position: fixed;
+z-index: 2;
+width: 96%;
+ 		 top: 0;
+  width: 95%;
+  transition: 0.2s;
+}/*
+header.sticky {
+ 		font-size: 24px;
+ 		line-height: 48px;
+ 		height: 48px;
+ 		background: #efc47D;
+ 		text-align: left;
+ 		padding-left: 20px;
+ }*/	
+								/*HEADER LOGO PART*/
+#logo
+{
+margin-top: 1em;
+}
+
+								/*HEADER DROP DOWN PART*/
+
+.dropdown
+{
+margin-left: 80%;
+transition: top 0.3s;
+}
+
+.dropdown-toggle
+{
+margin-right: 4.5em;
+margin-top: 1.5em;
+margin-left: 2em;
+text-decoration: none;
+}
+
+.dropdown-toggle a{
+color: black;
+}
+
+.dropdown-toggle a:focus{
+color: black;
+text-decoration: none;
+}
+
+.dropdown-toggle a:hover
+{
+color: orange;
+text-decoration: none;
+}
+
+#language-selector
+{
+padding: 10px;
+background-color: #333;
+}
+
+#language-selector li a
+{
+background-color: #333;
+color: white;
+line-height: 25px;
+}
+
+#language-selector li a:hover
+{
+color: orange;
+}	
+
+							/*image part*/
+
+
+
+.hero-internal-image img
+{
+margin-left: 1%;
+margin-top: 10%;
+margin-right: 2%;
+width: 97%;
+height: 26.5em;
+}
+
+						
+						/*cannada title and line sperator*/
+						
+.hero-internal-content
+{
+margin-top: -26.5em;
+padding-left: 2px;
+left: 6.5%;
+height: 38%;
+width: 36.5%;
+position: absolute; 
+background-color:rgba(255,255,255,.85);
+}
+
+
+.cannada_title
+{
+margin-left: 20px;
+text-align: center;
+padding-top: 30px;
+padding-right: 32px;
+font-size: 35px;
+font-family: helvetica;
+}
+
+						/*line seperator*/
+#line-1{
+background: #FF8E34;
+height: 6px;
+width: 100%;
+max-width: 625px;
+}
+
+
+
+						/*form action*/
+	
+.error-message {
+    list-style-type: none;
+    margin: 5px 25px 15px 10px;
+    padding: 6px 0px 0px 30px;
+    color: #B94A48;
+    border: 1px solid #DDDDDD;
+    background-color: #F2DEDE;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.error-message li {
+    vertical-align: middle;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.form-container label 
+{
+font-weight: normal;
+}
+
+input[type=text], select
+ {
+    width: 90%;
+    padding: 12px 20px;
+    margin-right: 5em;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+input[type=submit]
+
+{
+    width: 60%;
+    background-color: #00A3DB;
+    color: white;
+    padding: 18px;
+    margin: 1px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover {
+    background-color: #FFA500;
+}
+
+#countryname{
+  
+  background: none;
+  }
+ 
+.star
+{
+color: red;
+}
+
+.form-container
+{
+float: right;
+width: 35%;
+margin-right: 2cm;
+margin-top: 0.9cm;
+}
+
+#conditions a:link
+{
+color: #ADD8E6;
+}
+
+#help_with
+{
+background-color: white;
+width: 90%;
+}
+
+#help_with1
+{
+background-color: white;
+width: 100%;
+}
+#conditions
+{
+color:#00A4DB;
+font-weight: normal;
+} 
+
+.tick{
+background:url(check.png) no-repeat;
+background-position:95% center;
+background-size:12px 14px;
+width:90%;
+height:3em;
+}
+.wrong{
+background:url(fail.png) no-repeat;
+background-position:95% center;
+background-size:12px 14px;
+width:90%;
+height:3em;
+}
+
+
+
+			/*article part*/
+
+#line-2
+{
+margin-top: 2%;
+background: #FF8E34;
+width: 12%;
+height: 8px;
+
+}
+		
+article
+{
+margin-left: 3%;
+}
+
+			/*courses part*/
+.bg-white
+{
+margin-left: 30px;
+
+}
+
+		
+			/*panel part*/
+			
+
+.accord_part
+{
+margin-left: 2%;		
+}
+
+.panel-default
+
+{
+margin-right: 50%;
+
+}
+
+.panel-body
+{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: #F5F5F5;
+border-radius: 7px;
+}
+
+
+								/*FOOTER PART*/
+footer
+{
+margin-left:0px;
+margin-right: 26em;
+}
+
+footer .container
+{
+padding-top:4%;
+padding-left:3%;
+margin-left:4%;
+margin-bottom:2%;
+margin-top:4%;
+text-align: justify;
+background-color:#f2f2f0;
+height: 50%;
+width:125%;
+}
+
+.navbar-brand 
+{
+margin-right: 2px;
+}
+
+.navbar-header .navbar-brand 
+{
+font-size:13.8px;
+color:black;
+font-weight:bold;
+width:270px;
+margin-left:0;
+margin-bottom:-6%;
+}
+
+
+.navbar-header
+{
+margin-left: -15px;
+}
+
+.navbar-nav li a 
+{
+color:black;
+height:30px;
+width:250px;
+margin-left:-6%;
+font-size:14px;
+padding-top:7px;
+}
+
+#column2
+{
+margin-left:5em;
+}
+
+#column3
+{
+margin-left:2em;
+}
+
+#column4
+{
+padding-left:0em;
+margin-top: 0px;
+margin-left:0;
+}
+
+#column5
+{
+margin-top:10%;
+margin-left: -205px;
+}
+
+.navbar-collapse .navbar-nav li a:hover
+{
+text-decoration:underline;
+background-color:#f2f2f0;
+}
+ul.nav li a:hover
+{
+background:none;
+text-decoration: underline;
+}
+.col-sm-2 .navbar-header .navbar-brand:hover 
+{
+color:orange;
+}
+.navbar-header li a:hover
+{
+border:2px solid blue;
+}
+
+.images11
+{
+margin-top:-4px;
+margin-left: 10em;
+margin-bottom: 5px;
+height: 20%;
+width: 5em;
+float: right;
+padding: 20px;
+}
+
+.images11 a{
+display:inline;
+}
+
+#icons img
+{
+padding: 2px;
+}
+
+
+
+#copyright_part
+{
+
+margin-left: 20px;
+height:50px;
+width:94%;
+padding-top:25px;
+margin-bottom:20px;
+display: table;
+}
+#copyfooter
+{
+margin-top: 10px;
+font-size:x-small;
+}
+
+
+
+#copy_last
+{
+font-size:11.9px;
+display: table-cell;
+text-align: right;
+padding: 2px;
+}
+
+#copy_last a
+{
+color: black;
+}
+
+.dashed1
+{
+margin-top: 18%;
+opacity: 0.1;
+
+} 
+					
+		/*.............................Responsiveness...........................................*/
+
+/*Responsiveness*/					
+@media (max-width: 1300px) and (min-width: 768px)	
+{
+#header{
+height: 5em;
+width: 100%;
+}
+#logo{
+height: 40px;
+float: left;
+margin-left: 0px;
+margin-top: 1px;
+}
+
+.dropdown
+{
+display: none;
+}
+
+.hero-internal-image img
+{
+width: 100%;
+}
+
+.form-container
+{
+float:left;
+margin-left: 40px;
+margin-top: 40px;
+width: 80%;
+}
+
+#help_with
+{
+width:115%;
+}
+
+#help_with1
+{
+width:135%;
+}
+
+article
+{
+margin-top: 1100px;
+margin-left:50px;
+width: 80%;
+text-align: inherit;
+}
+
+.content-2 img
+{
+width: 80%;
+}
+
+.accord_part
+{
+width: 180%;
+}
+
+footer
+{
+width: 110%;
+cursor: pointer;
+}
+#column3, #column4, #column5
+{
+margin-left: 60px;
+}
+#column2
+{
+margin-left: 100px;
+}
+#icons
+{
+margin-top:-70px;
+margin-left: 20px;
+}
+}					
+@media (max-width: 479px) and (min-width: 320px) 
+{
+body
+{
+overflow-x: hidden;
+}
+#header{
+height: 4em;
+width: 110%;
+margin-left: -20px;
+}
+#logo{
+height: 40px;
+float: left;
+margin-left: 0px;
+margin-top: 1px;
+}
+.dropdown
+{
+display: none;
+}
+
+.hero-internal-content
+{
+margin-top:60px;
+margin-left:-20px;
+white-space: nowrap;
+font-size: 5px;
+
+}
+.cannada_title
+{
+margin-left:-8px;
+font-size: 28px;
+}
+.hero-internal-image img
+{
+display: none;
+}
+
+.form-container
+{
+float:left;
+margin-left: 30px;
+margin-top: 200px;
+width: 100%;
+}
+
+#help_with1
+{
+width:105%;
+}
+.sub
+{
+margin-left: -50px;
+}
+input[type=submit]
+{
+width: 85%;
+margin-left: -0px;
+padding: 20px;
+border-radius: 5px;
+}
+#line-2
+{
+width: 35%;
+height: 5px;
+}
+article
+{
+margin-top: 1580px;
+width: 80%;
+text-align: inherit;
+}
+
+.content-2 img
+{
+width: 120%;
+}
+
+.accord_part
+{
+width: 180%;
+}
+
+footer
+{
+width: 80%;
+margin-left: -10px;
+margin-right: 230px;
+}
+	
+#column1 button, #column2 button, #column3 button, #column4 button
+{
+display: block;
+padding: none;
+font-weight: bolder;
+
+}
+#column2
+{
+margin-left: 0px;
+display: block;
+}
+#column1 ul, #column2 ul, #column3 ul,  #column4 ul 
+{
+margin: 10px;
+}
+#column3
+{
+margin-left: -5px;
+}
+
+#column4
+{
+margin-left: 10px;
+
+}
+
+#icons a
+{
+display: inline;
+
+}
+#icons a
+{
+display: inline-block;
+padding-top: 10px;
+position: relative;
+
+}
+#ic1
+{
+margin-left: -240px;
+}
+.dashed1
+{
+padding-top: 10px;
+}
+#copyfooter
+{
+font-size: 9px;
+margin-right: 150px;
+white-space: nowrap;
+}
+
+#copy_last
+{
+
+margin-left: 60px;
+position: absolute;
+padding: 5px;	
+font-size: 9px;
+}
+}
+					
+@media (max-width: 660px) and (min-width: 480px) 	
+{
+body{
+overflow-x: hidden;
+}
+#header{
+height: 4em;
+width: 110%;
+margin-left: -20px;
+}
+#logo{
+height: 40px;
+float: left;
+margin-left: 0px;
+margin-top: 1px;
+}
+.dropdown
+{
+display: none;
+}
+
+.hero-internal-content
+{
+margin-top:60px;
+margin-left:-20px;
+white-space: nowrap;
+font-size: 5px;
+
+}
+.cannada_title
+{
+margin-left:-8px;
+font-size: 28px;
+}
+.hero-internal-image img
+{
+display: none;
+}
+
+.form-container
+{
+float:left;
+margin-left: 30px;
+margin-top: 200px;
+width: 100%;
+}
+
+#help_with1
+{
+width:105%;
+}
+.sub
+{
+margin-left: 0px;
+}
+input[type=submit]
+{
+width: 85%;
+margin-left: -0px;
+padding: 20px;
+border-radius: 5px;
+}
+#line-2
+{
+width: 35%;
+height: 5px;
+}
+article
+{
+margin-top: 1580px;
+width: 80%;
+text-align: inherit;
+}
+
+.content-2 img
+{
+width: 120%;
+}
+
+.accord_part
+{
+width: 180%;
+}
+
+footer
+{
+width: 80%;
+margin-left: -10px;
+margin-right: 230px;
+}
+	
+#column1 button
+{
+display: block;
+padding: none;
+}
+#column2
+{
+margin-left: 0px;
+display: block;
+}
+#column1 ul, #column2 ul, #column3 ul,  #column4 ul 
+{
+margin: 10px;
+}
+#column3
+{
+margin-left: -5px;
+}
+
+#column4
+{
+margin-left: 10px;
+}
+
+#icons a
+{
+display: inline;
+
+}
+#icons a
+{
+display: inline-block;
+padding-top: 10px;
+position: relative;
+}
+#ic1
+{
+margin-left: 0px;
+}
+#copyright_part
+{
+float: left;
+}
+}
+
+
+
+/*Responsiveness*/
+
+@media (max-width: 660px) and  (min-width: 480px)
+{
+#icons a
+{
+display: inline;
+
+}
+#icons a
+{
+display: inline-block;
+padding-top: 10px;
+	
+
+}
+#ic1
+{
+margin-left: -300px;
+
+}
+.dashed1
+{
+padding-top: 10px;
+}
+#copyfooter
+{
+font-size: 9px;
+margin-right: 150px;
+margin-left: 80px;
+white-space: nowrap;
+}
+
+#copy_last
+{
+
+margin-left: 150px;
+position: absolute;
+padding: 5px;	
+font-size: 9px;
+}
+
+}
+
+@media (max-width: 700px) and (min-width: 661px)	
+{
+#header{
+height: 5em;
+width: 100%;
+}
+#logo{
+height: 40px;
+float: left;
+margin-left: 0px;
+margin-top: 1px;
+}
+
+.dropdown
+{
+display: none;
+}
+
+.hero-internal-image img
+{
+width: 100%;
+}
+
+.form-container
+{
+float:left;
+margin-left: 40px;
+margin-top: 40px;
+width: 80%;
+}
+
+#help_with
+{
+width:115%;
+}
+
+#help_with1
+{
+width:135%;
+}
+
+article
+{
+margin-top: 1100px;
+margin-left:50px;
+width: 80%;
+text-align: inherit;
+}
+
+.content-2 img
+{
+width: 80%;
+}
+
+.accord_part
+{
+width: 180%;
+}
+
+footer
+{
+width: 110%;
+cursor: pointer;
+}
+#column3, #column4, #column5
+{
+margin-left: 60px;
+}
+#column2
+{
+margin-left: 100px;
+}
+#icons
+{
+margin-top:-70px;
+margin-left: 20px;
+}
+}
+	
+@media (max-width: 990px) and (min-width: 750px)	
+{
+body{
+overflow-x: hidden;
+}
+#header{
+height: 4em;
+width: 110%;
+/*
+margin-left: 20px;
+*/
+}
+#logo{
+height: 40px;
+float: left;
+margin-left: 0px;
+margin-top: 1px;
+}
+.dropdown
+{
+display: none;
+}
+
+.hero-internal-content
+{
+margin-top:60px;
+margin-left:-20px;
+white-space: nowrap;
+font-size: 5px;
+
+}
+.cannada_title
+{
+margin-left:-8px;
+font-size: 28px;
+}
+#image_1
+{
+display: none;
+}
+
+.form-container
+{
+float:left;
+margin-left: 30px;
+margin-top: 200px;
+width: 100%;
+}
+#help_with
+{
+width: 143%;
+}
+#help_with1
+{
+width:168%;
+}
+.sub
+{
+margin-left: -50px;
+}
+input[type=submit]
+{
+width: 145%;
+margin-left: -0px;
+padding: 20px;
+
+border-radius: 5px;
+}
+#line-2
+{
+width: 35%;
+height: 5px;
+}
+article
+{
+margin-top: 1580px;
+width: 80%;
+text-align: inherit;
+}
+
+.content-2 img
+{
+width: 110%;
+}
+
+.accord_part
+{
+width: 180%;
+}
+footer
+{
+width: 80%;
+margin-left: -10px;
+margin-right: 230px;
+}
+	
+#column1 button
+{
+display: block;
+padding: none;
+}
+#column2
+{
+margin-left: 0px;
+display: block;
+}
+#column1 ul, #column2 ul, #column3 ul,  #column4 ul 
+{
+margin: 10px;
+}
+#column3
+{
+margin-left: -5px;
+}
+
+#column4
+{
+margin-left: 10px;
+}
+
+#icons a
+{
+display: inline;
+
+}
+#icons a
+{
+display: inline-block;
+padding-top: 10px;
+position: relative;
+}
+#ic1
+{
+margin-left: 0px;
+}
+#copyright_part
+{
+float: left;
+}
+}
+/*
+
+	
+@media (max-width: 991px) and (min-width: 750px) 
+{
+body{
+overflow-x: hidden;
+}
+#header{
+height: 4em;
+width: 110%;
+margin-left: -20px;
+}
+#logo{
+height: 40px;
+float: left;
+margin-left: 0px;
+margin-top: 1px;
+}
+.dropdown
+{
+display: none;
+}
+
+.hero-internal-content
+{
+margin-top:60px;
+margin-left:-20px;
+white-space: nowrap;
+font-size: 5px;
+
+}
+.cannada_title
+{
+margin-left:-8px;
+font-size: 28px;
+}
+.hero-internal-image img
+{
+
+}
+
+.form-container
+{
+float:left;
+margin-left: 30px;
+margin-top: 200px;
+width: 100%;
+}
+#help_with
+{
+width: 143%;
+}
+#help_with1
+{
+width:168%;
+}
+.sub
+{
+margin-left: -50px;
+}
+input[type=submit]
+{
+width: 145%;
+margin-left: -0px;
+padding: 20px;
+
+border-radius: 5px;
+}
+#line-2
+{
+width: 35%;
+height: 5px;
+}
+article
+{
+margin-top: 1580px;
+width: 80%;
+text-align: inherit;
+}
+
+.content-2 img
+{
+width: 110%;
+}
+
+.accord_part
+{
+width: 180%;
+}
+*/
+/*
+
+footer
+{
+width: 80%;
+margin-left: -10px;
+margin-right: 230px;
+}
+	
+#column1 button
+{
+display: block;
+padding: none;
+}
+#column2
+{
+margin-left: 0px;
+display: block;
+}
+#column1 ul, #column2 ul, #column3 ul,  #column4 ul 
+{
+margin: 10px;
+}
+#column3
+{
+margin-left: -5px;
+}
+
+#column4
+{
+margin-left: 10px;
+}
+
+#icons a
+{
+display: inline;
+
+}
+#icons a
+{
+display: inline-block;
+padding-top: 10px;
+position: relative;
+}
+#ic1
+{
+margin-left: 0px;
+}
+#copyright_part
+{
+float: left;
+}
+*/
+}
+		
+@media (max-width: 900px) and  (min-width: 860px) 	
+{
+#help_with
+{
+width: 160%;
+}
+#help_with1
+{
+width:188%;
+}
+}	/*-----------------------------form validation----------------------*/
+
+
+#errors, #errors1, #errors2, #errors3, #errors5
+{
+color: #B64B73;
+margin-top: 20px;
+}					
+
+
+
+
+
+
+
